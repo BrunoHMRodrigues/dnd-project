@@ -50,14 +50,22 @@
 }
 
 #section-attributes {
-    min-width: 500px;
-    min-height: 100px;
+    width: 500px;
+    height: 100px;
     flex-direction: column;
+}
+#container-attributes {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-attribute {
     width: 60px;
     height: 80px;
+    margin: 5px;
+    padding: 5px;
     border: 1px solid black;
 }
 .attributes-value {
