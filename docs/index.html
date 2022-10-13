@@ -11,13 +11,40 @@
 <body>
     <header><h1></h1></header>
 
-    <section id="section-builder">
-        <section id="section-initial-info">
+    <section id="section-builder" class="sections-containers">
+        <section id="section-initial-info" class="subsections">
+            <h3 class="subitem-title">Initial Info</h3>
+            <label for="input-name"> Name: 
+                <input type="text" id="input-name">
+            </label>
 
+            <label for="select-race"> Race:
+                <select name="" id="select-race"></select>
+            </label>
+
+            <label for="select-class"> Class:
+                <select name="" id="select-class"></select>
+            </label>
         </section>
 
-        <section id="section-attributes">
-
+        <section id="section-attributes" class="subsections">
+            <h3 class="subitem-title">Attributes</h3>
+            <div id="container-attributes">
+                <div id="container-strength" class="container-attribute">
+                    <div id="strength-value" class="attributes-value">8</div>    
+                    <div id="strength-change" class="container-change-attributes">
+                        <i class="bi bi-caret-left-fill"></i>
+                        <div id="strength-bonus" class="container-bonus">
+                            <p>0</p>
+                        </div>
+                        <i class="bi bi-caret-right-fill"></i>
+                    </div>
+                    <label for="container-strength" class="attribute-name">Strength</label>
+                </div>
+                
+            </div>
+            
+            
         </section>
 
         <section id="section-skills-saves">
@@ -37,11 +64,11 @@
         </section>
     </section>
 
-    <section id="section-levelling"></section>
+    <section id="section-levelling" class="sections-containers"></section>
 
-    <section id="section-spells"></section>
+    <section id="section-spells" class="sections-containers"></section>
 
-    <section id="section-ficha"></section>
+    <section id="section-ficha" class="sections-containers"></section>
 
 
     <script src="./script.js"></script>
