@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bi-caret-left-fill, .bi-caret-right-fill, .container-bonus {
+    color: white;
+}
+
+.subitem-title {
+    font-size: 15px;
+    width: max-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribute-name {
+    font-size: 12px;
+    text-align: center;
+}
+
+.sections-containers {
+    width: 85vw;
+    height: 100px;
+    margin: 30px auto;
+    display: flex;
+    padding: 50px;
+    flex-basis: 80vw;
+    background-color: aqua;
+    border: 8px double blue;
+}
+
+.subsections {
+    border: 1px solid black;
+    display: flex;
+    padding: 2px 15px 15px 15px;
+}
+
+#section-initial-info {
+    flex-direction: column;    
+    max-width: 250px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#input-name, #select-race, #select-class {
+    width: 180px;
+}
+
+#section-attributes {
+    min-width: 500px;
+    min-height: 100px;
+    flex-direction: column;
+}
+
+.container-attribute {
+    width: 60px;
+    height: 80px;
+    border: 1px solid black;
+}
+.attributes-value {
+    background-color: red;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.container-change-attributes {
+    background-color: blue;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.attribute-name {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
